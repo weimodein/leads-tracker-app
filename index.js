@@ -44,12 +44,12 @@ onValue(referenceInDB, (snapshot) => {
   }
 });
 
-deleteBtn.addEventListener("dblclick", function () {
+deleteBtn.addEventListener("dblclick", () => {
   remove(referenceInDB);
   ulEl.innerHTML = "";
 });
 
-inputBtn.addEventListener("click", function () {
+inputBtn.addEventListener("click", () => {
   push(referenceInDB, inputEl.value);
   inputEl.value = "";
 });
