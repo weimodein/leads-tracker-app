@@ -23,6 +23,7 @@ button {
 
 button:hover {
   background: #3d5e2a;
+  cursor: pointer;
 }
 
 #delete-btn {
@@ -31,7 +32,7 @@ button:hover {
 }
 
 #delete-btn:hover {
-  background: rgb(150, 150, 150);
+  background: rgb(212, 212, 212);
 }
 
 ul {
