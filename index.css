@@ -40,6 +40,19 @@ button:hover {
   background: rgb(212, 212, 212);
 }
 
+.button-row {
+  display: flex;
+  gap: 4px;
+}
+
+.button-row button {
+  flex: 1;
+  min-width: 0;
+  box-sizing: border-box;
+  padding: 10px 8px;
+  white-space: nowrap;
+}
+
 ul {
   margin-top: 20px;
   list-style: none;
